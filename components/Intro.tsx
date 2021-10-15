@@ -1,12 +1,24 @@
 import Image from "next/image"
+import { useEffect, useState } from "react";
 
 import Socials from "./Socials"
 
 
 const Intro = ({ scroll }: any) => {
 
+    const [show, setShow] = useState(0);
+    const delay = 2500
+
+    useEffect(() => {
+        setTimeout(() => {
+            setShow((prevIndex) =>
+                prevIndex === 1 ? 0 : prevIndex + 1
+            )
+        }, delay);
+    }, [show]);
+
     return (
-        <div className={`h-full lg:h-screen w-screen`}>
+        <div className={`h-full lg:h-screen w-screen flex items-center justify-center`}>
             <a href="/" className="transform hover:scale-110 transition-all duration-500 ease-in-out absolute top-0 left-0 p-5 cursor-pointer z-20">
                 <img src="/images/mgh_logo.png" className={`h-10 w-10`} />
             </a>
@@ -24,6 +36,14 @@ const Intro = ({ scroll }: any) => {
                 </a>
             </div>
 
+
+            <h1 className={`z-10 text-white animate__animated fixed  ${show == 0 ? "animate__zoomIn" : "animate__zoomOut"}`}>
+                MetaGameHub
+            </h1>
+
+            <h1 className={`z-10 text-white animate__animated fixed  ${show == 1 ? "animate__zoomIn" : "animate__zoomOut"}`}>
+                DAO
+            </h1>
 
 
 
