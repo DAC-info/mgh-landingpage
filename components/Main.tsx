@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import DAO from "./DAO";
 import Community from "./Community";
-import NFTs from "./Arts";
+import Arts from "./Arts";
 import Socials from "./Socials"
 
 
@@ -60,7 +60,7 @@ const Main = ({ animate }: any) => {
                 </a>
             </div>
 
-            <NFTs show={show} animate={animate} />
+            <Arts show={show} animate={animate} />
 
 
             <div className="relative mt-10 lg:mt-0 lg:absolute flex flex-col space-y-2 items-center justify-center bottom-0 right-0 p-5 pb-0 lg:pb-3 w-full lg:w-80 xl:w-96 z-10 rounded-tl-3xl bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm">

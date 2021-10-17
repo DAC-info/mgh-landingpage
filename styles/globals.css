@@ -76,9 +76,6 @@
   --animate-duration: 5s;
 }
 
-.nft-line {
-  --animate-duration: 100s;
-}
 
 html {
   @apply bg-black;
