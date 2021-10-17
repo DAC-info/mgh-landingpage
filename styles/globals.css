@@ -91,19 +91,23 @@ h1 {
 }
 
 h2 {
-  @apply text-4xl sm:text-5xl xl:text-6xl font-medium py-3;
+  @apply text-3xl sm:text-4xl xl:text-6xl font-medium max-w-sm lg:max-w-full m-auto py-1 lg:py-5;
 }
 
 h3 {
-  @apply text-lg xl:text-xl py-3;
+  @apply text-base xl:text-xl py-1 max-w-sm lg:max-w-full m-auto;
 }
 
 h4 {
-  @apply text-3xl sm:text-4xl xl:text-5xl font-medium py-3;
+  @apply text-3xl sm:text-4xl xl:text-5xl font-medium max-w-sm lg:max-w-full m-auto py-1 lg:py-5;
 }
 
 h5 {
-  @apply text-xs xl:text-base py-3;
+  @apply text-xs xl:text-base py-1 max-w-sm lg:max-w-full m-auto;
+}
+
+h6 {
+  @apply text-xl lg:text-3xl font-lighters pt-1 lg:pt-2;
 }
 
 

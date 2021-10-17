@@ -5,7 +5,7 @@ const DAO = ({ show, animate }: any) => {
 
     return (
 
-        <div className="relative lg:absolute inset-0 items-center justify-center h-full w-full flex flex-col-reverse lg:flex-row">
+        <div className="max-w-screen-sm lg:max-w-full py-10 lg:py-0 relative lg:absolute inset-0 items-center justify-center h-full w-full flex flex-col-reverse lg:flex-row">
             <div className={`z-10 relative w-full lg:w-1/2 flex flex-col items-center justify-center ${animate && "animate__animated"}  ${show == 0 ? "animate__zoomIn" : "animate__zoomOut"}`}>
                 <GovernanceIllustration />
             </div>

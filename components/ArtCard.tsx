@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 
-const NFTCard = ({ img, classes, land=false }: any) => {
+const ArtCard = ({ img, classes, land=false }: any) => {
     return (
 
         <div className={`${classes} group relative flex flex-col w-36 xs:w-48 xl:w-56 rounded-lg bg-opacity-10 transform transition duration-300 ease-in-out border border-white border-opacity-10`}>
@@ -14,6 +14,6 @@ const NFTCard = ({ img, classes, land=false }: any) => {
     )
 }
 
-export default NFTCard
+export default ArtCard
 
 
