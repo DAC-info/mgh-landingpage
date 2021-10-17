@@ -82,7 +82,7 @@ module.exports = {
       },
       transitionDuration: {
         '2000': '2000ms',
-        '40000': '40000ms'
+        '50000': '50000ms'
       },
       padding: {
         full: '100%'

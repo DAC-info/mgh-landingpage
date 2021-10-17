@@ -3,11 +3,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import "animate.css"
 
-import Intro from "../components/Desktop";
 import Footer from "../components/Footer";
 
-import Desktop from '../components/Desktop';
-import Mobile from '../components/Mobile';
+import Main from '../components/Main';
 import useWindowSize from "../hooks/windowSize"
 
 
@@ -29,15 +27,13 @@ const Home: NextPage = () => {
         <>
             <Head>
                 <title>MetaGameHub DAO</title>
-                <meta name="description" content="Governance of metaverse related items, fair valuation and minting of NFT backed tokens and provision of metaverse market data." />
-                {/* <meta name="robots" content="noodp,noydir" /> */}
+                <meta name="description" content="" />
             </Head>
 
             <main className="flex flex-col items-center">
                 <div className="max-w-full 2xl:max-w-screen-2xl">
 
-                    {size.width ? (size.width < 1025 ? <Mobile animate={false}/> : <Mobile animate={true}/>) : (<Mobile animate={true}/>)}
-                    {/* <Mobile /> */}
+                    {size.width ? (size.width < 1024 ? <Main animate={false}/> : <Main animate={true}/>) : (<Main animate={true}/>)}
                 </div>
 
             </main>
