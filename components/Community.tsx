@@ -12,7 +12,7 @@ const Community = ({ show, animate }: any) => {
                     Passionate & Excited Community
                 </h2>
 
-                <h3 className={`${animate && "animate__animated"} ${show == 1 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
+                <h3 className={`${animate && "animate__animated"} text-gray-400 ${show == 1 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
                     Friendly curated governance, voting for virtual real estate, and educating each other with enthusiasm for art and the metaverse.
                 </h3>
             </div>

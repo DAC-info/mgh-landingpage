@@ -14,7 +14,7 @@ const DAO = ({ show, animate }: any) => {
                     Decentralized Autonomous Organization
                 </h2>
 
-                <h3 className={`${animate && "animate__animated"}  ${show == 0 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
+                <h3 className={`${animate && "animate__animated"} text-gray-400  ${show == 0 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
                     Community governed, enforced on the chain with no central leadership members have the power to choose on arts, assets and lands. As well as control the funds and management of the DAO overall.
                 </h3>
             </div>

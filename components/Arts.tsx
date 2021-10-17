@@ -34,7 +34,7 @@ const Arts = ({ show, animate }: any) => {
                         Gamer's Paradise
                     </h4>
 
-                    <h5 className={`${animate && "animate__animated"}  ${show == 2 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
+                    <h5 className={`${animate && "animate__animated"} text-gray-400  ${show == 2 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
                         The metaverse is rapidly growing into its own virtual world shared by everyone. MGH is building its virtual real estate into a safe and versatile arena for artists, enthusiasts, and developers alike, featuring 3 parcels surround by brands like Atari and Revomon.
                     </h5>
                 </div>
@@ -44,7 +44,7 @@ const Arts = ({ show, animate }: any) => {
                         Artist's Keeper
                     </h4>
 
-                    <h5 className={`${animate && "animate__animated"}  ${show == 2 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
+                    <h5 className={`${animate && "animate__animated"} text-gray-400  ${show == 2 ? "animate__fadeInUp animate__delay-2s" : "animate__zoomOut"}`}>
                         The Lack of liquidity and limited earning potential in the art market has made it hard for collectors. We fix that with staking, so ownership stays with you. Use your holdings and gain exposure to multiple virtual worlds with your art as the key.
                     </h5>
                 </div>
