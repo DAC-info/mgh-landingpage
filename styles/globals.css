@@ -37,11 +37,11 @@
 }
 
 .social-media-icon {
-  @apply text-2xl text-gray-200 transform hover:scale-110 transition duration-300 ease-in-out;
+  @apply text-2xl text-gray-200 transform hover:scale-120 transition duration-300 ease-in-out;
 }
 
 .button {
-  @apply text-center rounded-full px-4 sm:px-6 py-1.5 sm:py-2 bg-gray-400 bg-opacity-10 transform hover:scale-105 transition duration-300 ease-in-out hover:shadow-button sm:hover:shadow-color border border-white border-opacity-20 hover:border-opacity-70 cursor-pointer;
+  @apply text-center rounded-full px-4 py-1.5 sm:py-2 bg-gray-400 bg-opacity-10 transform hover:scale-105 transition duration-300 ease-in-out hover:shadow-button sm:hover:shadow-color border border-white border-opacity-20 hover:border-opacity-70 cursor-pointer;
 }
 
 .button-text {
@@ -76,6 +76,10 @@
   --animate-duration: 5s;
 }
 
+.nft-line {
+  --animate-duration: 100s;
+}
+
 html {
   @apply bg-black;
   scroll-behavior: smooth;
@@ -87,18 +91,19 @@ h1 {
 }
 
 h2 {
-  @apply text-5xl sm:text-6xl xl:text-7xl font-medium py-3;
+  @apply text-4xl sm:text-5xl xl:text-6xl font-medium py-3;
 }
 
 h3 {
+  @apply text-lg xl:text-xl py-3;
 }
 
 h4 {
-  @apply text-gray-200 text-xl mb-3 z-10 border-b max-w-max;
+  @apply text-3xl sm:text-4xl xl:text-5xl font-medium py-3;
 }
 
-h6 {
-  @apply text-3xl xs:text-4xl  sm:text-5xl lg:text-6xl font-lighters py-2;
+h5 {
+  @apply text-xs xl:text-base py-3;
 }
 
 

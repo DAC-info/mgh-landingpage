@@ -3,19 +3,27 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import "animate.css"
 
-import Intro from "../components/Intro";
+import Intro from "../components/Desktop";
 import Footer from "../components/Footer";
+
+import Desktop from '../components/Desktop';
+import Mobile from '../components/Mobile';
+import useWindowSize from "../hooks/windowSize"
 
 
 const Home: NextPage = () => {
     const [scroll, setScroll] = useState(0);
+
 
     useEffect(function onFirstMount() {
         function onScroll() {
             setScroll(window.scrollY);
         }
         window.addEventListener("scroll", onScroll, { passive: true });
+
     }, []);
+
+    const size = useWindowSize();
 
     return (
         <>
@@ -28,13 +36,11 @@ const Home: NextPage = () => {
             <main className="flex flex-col items-center">
                 <div className="max-w-full 2xl:max-w-screen-2xl">
 
-                    <Intro scroll={scroll} />
+                    {size.width ? (size.width < 1025 ? <Mobile /> : <Desktop/>) : (<Desktop/>)}
 
                 </div>
 
             </main>
-
-            {/* <Footer /> */}
 
 
         </>
