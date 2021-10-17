@@ -4,7 +4,7 @@ import { FaLinkedin, FaTelegramPlane, FaDiscord, FaInstagram, FaTwitter } from "
 const Socials = () => {
 
     return (
-        <div className="flex flex-col items-center justify-center space-y-2">
+        <div className="flex flex-row lg:flex-col items-center justify-center space-y-0 space-x-5 lg:space-x-0 lg:space-y-2">
             <a href="https://www.instagram.com/metagamehub_dao/" className="cursor-pointer" target="_blank" >
                 <FaInstagram className="social-media-icon" />
             </a>

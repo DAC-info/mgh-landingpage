@@ -3,7 +3,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"
 
 const GovernanceIllustration = () => {
     return (
-        <div className="relative flex items-center font-medium justify-center h-96 w-96 transform scale-70 sm:scale-110 2xl:scale-125 my-0 sm:my-10 lg:my-0">
+        <div className="relative flex items-center font-medium justify-center h-96 w-96 transform scale-70 sm:scale-110 2xl:scale-125">
 
             <div className="h-8 w-10 absolute top-22 flex flex-col items-center z-10">
                 <IoIosArrowUp className="absolute top-0 text-white text-2xl z-10" />

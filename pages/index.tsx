@@ -36,8 +36,8 @@ const Home: NextPage = () => {
             <main className="flex flex-col items-center">
                 <div className="max-w-full 2xl:max-w-screen-2xl">
 
-                    {size.width ? (size.width < 1025 ? <Mobile /> : <Desktop/>) : (<Desktop/>)}
-
+                    {size.width ? (size.width < 1025 ? <Mobile animate={false}/> : <Mobile animate={true}/>) : (<Mobile animate={true}/>)}
+                    {/* <Mobile /> */}
                 </div>
 
             </main>
