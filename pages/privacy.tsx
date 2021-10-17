@@ -2,8 +2,6 @@ import React from "react";
 import { NextPage } from "next";
 import Head from "next/head";
 
-import Footer from "../components/Footer";
-
 
 const PrivacypolicyPage: NextPage = () => {
   return (
@@ -241,8 +239,6 @@ const PrivacypolicyPage: NextPage = () => {
         </div>
 
       </main>
-
-      <Footer />
 
 
     </>

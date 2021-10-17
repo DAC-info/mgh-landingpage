@@ -78,7 +78,7 @@ const Main = ({ animate }: any) => {
                 <Socials />
             </div>
 
-            <p className="relative lg:absolute bottom-1 text-gray-400 text-xxs lg:text-xs z-20 mt-5 lg:mt-0">This website uses cookies to see how you interact with it. <a className="cursor-pointer hover:text-blue-400">Privacy Policy</a></p>
+            <p className="relative lg:absolute bottom-1 text-gray-400 text-xxs lg:text-xs z-20 mt-5 lg:mt-0">This website uses cookies to see how you interact with it. <a href="/privacy" className="cursor-pointer hover:text-blue-400">Privacy Policy</a></p>
 
         </div>
     )
