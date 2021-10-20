@@ -36,6 +36,7 @@ const Main = ({ animate }: any) => {
             message = await res.json()
             setMessage(message.message)
         } catch (e) {
+            console.log(e)
             setMessage("Something went wrong, try again later!")
         }
     }
