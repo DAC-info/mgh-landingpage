@@ -1,4 +1,4 @@
-import { FaLinkedin, FaTelegramPlane, FaDiscord, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTelegramPlane, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 
 const Socials = () => {
@@ -21,8 +21,8 @@ const Socials = () => {
                 <FaTelegramPlane className="social-media-icon" />
             </a>
 
-            <a href="https://discord.gg/QEWfTJeWCV" className="cursor-pointer" target="_blank" >
-                <FaDiscord className="social-media-icon" />
+            <a href="https://www.youtube.com/channel/UC6lHXEEmjGiRmIVmiS0odpw" className="cursor-pointer" target="_blank" >
+                <FaYoutube className="social-media-icon" />
             </a>
         </div>
 
